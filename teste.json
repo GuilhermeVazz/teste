@@ -1,0 +1,37 @@
+{
+    "yoda": 
+        {
+            "name": "Yoda",
+            "userName": "@yodaMestre",
+            "frase": "Que a Força esteja com você! "
+        }
+    ,
+    "Galvão": 
+        {
+            "name": "nome",
+            "userName": "@username",
+            "frase": "frase"
+        }
+    ,
+    "GuilhermeVaz": 
+        {
+            "name": "nome",
+            "userName": "@username",
+            "frase": "frase"
+        }
+    ,
+    "Chaves": 
+        {
+            "name": "nome",
+            "userName": "@username",
+            "frase": "frase"
+        }
+    ,
+    "DarthVader": 
+        {
+            "name": "nome",
+            "userName": "@username",
+            "frase": "frase"
+        }
+    
+}

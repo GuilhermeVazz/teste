@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 8%;
+  background: #efefef;
+}
+
+select, option {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+
+option {
+  font-size: 13px;
+}
+
+main {
+  width: 600px;
+  height: 400px;
+  border: 1px solid #c8c8c8;
+  border-radius: 5px;
+  background: white;
+  padding: 10px 20px;
+}
+
+main #nameUsername {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main #nameUsername #name {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #04c8f4;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+main #nameUsername #userName {
+  color: #c8c8c8;
+}
+
+main #nameUsername #picUser {
+  width: 60px;
+  height: 60px;
+  padding: 0 2px 0 0;
+  background-color: #111;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+main .exemploGerar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5%;
+}
+
+main .exemploGerar input {
+  border: 1px solid #c8c8c8;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  width: 400px;
+  height: 60px;
+  font-size: 18px;
+}
+
+main .exemploGerar button {
+  border: 1px solid #1cb2fe;
+  border-radius: 4rem;
+  background: #e7f4f8;
+  width: 100px;
+  height: 60px;
+}
+
+main .exemploGerar button:hover {
+  background: white;
+}
+
+main #selectPerson {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10%;
+}
+
+main #selectPerson p {
+  font-size: 20px;
+  color: #111;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+main #selectPerson #people {
+  text-align: center;
+  width: 150px;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1;
+  border: 1px solid;
+  border-color: #04c8f4;
+  border-radius: 5px;
+  border-width: 2px;
+  height: 34px;
+  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #e7f4f8;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-position-x: 244px;
+}
+/*# sourceMappingURL=main.css.map */
