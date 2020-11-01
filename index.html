@@ -8,43 +8,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./src/scss/main.css" />
 
+    <!-- fontes -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grandstander:wght@100&family=Nunito:wght@200;400;600;700&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
 
     <main>
         <div id="nameUsername">
+            <img id="picUser" src="./src/images/avatarPadrao.png">
             <div>
                 <div id="name">Nome</div>
                 <div id="userName">@nome</div>
             </div>
 
-            <img id="picUser" src="">
-        </div>
 
-        <div class="exemploGerar">
-            <input id="showM" type="text" placeholder="Exemplo...">
-            <button id="gerar" type="button" onclick="gerarTexto()">Gerar</button>
         </div>
+        <!-- input que irá mostrar a mensagem do personagem -->
+        <input id="showM" class="exemploGerar" type="text" placeholder="Seja bem vindo :)))">
 
+        <div id="dataHora"></div>
 
         <div id="selectPerson">
 
-            <p>Selecione um uma pessoa ao lado:</p>
+            <p>Selecione uma pessoa ao lado:</p>
+            <div id="selectButton">
+                <select id="people">
+                    <option>Guilherme Vaz</option>
+                    <option>Darth Vader</option>
+                    <option>Chaves</option>
+                    <option>Galvão Bueno</option>
+                    <option>Yoda</option>]
+                    <option>Davi</option>
+                </select>
 
-            <select id="people">
-                <option>Guilherme Vaz</option>
-                <option>Darth Vader</option>
-                <option>Chaves</option>
-                <option>Galvão Bueno</option>
-                <option>Yoda</option>
-            </select>
-
+                <button id="gerar" type="button" onclick="gerarTexto()">Gerar</button>
+            </div>
         </div>
+
 
     </main>
 
     <script src="main.js"></script>
+    <script src="person.js"></script>
 </body>
 
 </html>
